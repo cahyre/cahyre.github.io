@@ -1,0 +1,133 @@
+nav, main, footer { display: block; }
+
+/*Header and Logo styling*/
+header { 
+	background-color: #73C2FB;
+	border-bottom: 4px solid black;
+}
+/*Body styles*/
+body {
+	background-image: url(../images/sand.avif);
+	background-repeat: no-repeat;
+    font-family: Copperplate Gothic, Arial, sans-serif;
+}
+/*Styles for wrapper*/
+#wrapper {
+	width: 960px;
+    margin: auto;
+	background-color: #93E9B3;
+	color: #330000;
+	box-shadow: 5px 5px 5px #000000;
+}
+/*Largest Heading styles*/
+h1 { 
+	background-image: url(images/logo.gif);
+    background-repeat: no-repeat;
+    background-color: #73C2FB;
+	height: 110px;
+	font-family: Brush Script MT, serif;
+	color: #FFFFFF;
+	font-size: 4.5em;
+    padding-left: 220px;
+	padding-top: 20px;
+	text-shadow: 5px 5px 5px #333333;
+	margin-bottom: 0;
+	border-bottom: 4px solid black;
+}
+/*Remaining heading styles*/
+h2  {
+	color: #FFFFFF;
+	font-size: 3em;
+	text-shadow: 4px 4px 4px #333333;
+	}
+
+h3  { color: #FFFFFF;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+/*nav bar styling*/
+nav {
+	padding-top: 10px;
+    float: left;
+    width: 200px;
+	text-shadow: 1.5px 1.5px 1.5px #333333;
+}
+
+/*Nav Pseudoclasses*/
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: #FFFFFF;
+}
+
+nav a:visited {
+	color: #111111;
+	text-decoration: underline;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+nav ul {
+	list-style-type: none; 
+    padding-left: 20px;
+}
+nav li {
+	padding-bottom: 5px;
+    font-weight: bold;
+}
+
+nav a { text-decoration: none; }
+nav a:link { color: #FFFFFF; }
+nav a:visited{ color: #FFFFFF40; }
+nav a:hover { color: #000000; }
+
+/*Main Content styles*/
+main { 
+	background-color: #ADD8E680;
+    margin-left: 200px;
+    padding: 1px 20px 20px 20px;   
+	min-height: 300px;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+/*Footer Styles*/
+footer { 
+	background-color: #93E9B3;
+    margin-left: 200px;
+    padding: 20px;
+    text-align: center;
+	font-size: small;
+	font-style: italic;
+}
+/*Classes for images*/
+.roomimg {
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px 5px #333333;
+	margin-bottom: 10px;
+}
+
+.mainimg {
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px 5px #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.eventimg {
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px 5px #333333;
+	margin-bottom: 10px;
+}
+/*Styling for links in main elements*/
+.textlink {
+	color: #FFFFFF;
+}
