@@ -1,0 +1,218 @@
+nav, main, footer { display: block; }
+
+/*Header and Logo styling*/
+header { 
+	background-color: #73C2FB;
+	border-bottom: 4px solid black;
+}
+/*Body styles*/
+body {
+	background-image: url(../images/sand.avif);
+	background-repeat: no-repeat;
+    font-family: Copperplate Gothic, Arial, sans-serif;
+}
+/*Styles for wrapper*/
+#wrapper {
+	width: 960px;
+    margin: auto;
+	background-color: #93E9B3;
+	color: #330000;
+	box-shadow: 5px 5px 5px #000000;
+}
+/*Largest Heading styles*/
+h1 { 
+	background-image: url(images/logo.gif);
+    background-repeat: no-repeat;
+    background-color: #73C2FB;
+	height: 110px;
+	font-family: Brush Script MT, serif;
+	color: #FFFFFF;
+	font-size: 4.5em;
+    padding-left: 220px;
+	padding-top: 20px;
+	text-shadow: 5px 5px 5px #333333;
+	margin-bottom: 0;
+	border-bottom: 4px solid black;
+}
+/*Remaining heading styles*/
+h2  {
+	color: #FFFFFF;
+	font-size: 3em;
+	text-shadow: 4px 4px 4px #333333;
+	}
+
+h3  { color: #FFFFFF;
+	text-shadow: 3px 3px 3px #333333;
+}
+
+/*nav bar styling*/
+nav {
+	padding-top: 10px;
+    float: left;
+    width: 200px;
+	text-shadow: 1.5px 1.5px 1.5px #333333;
+}
+
+/*Nav Pseudoclasses*/
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: #FFFFFF;
+}
+
+nav a:visited {
+	color: #111111;
+	text-decoration: underline;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+nav ul {
+	list-style-type: none; 
+    padding-left: 20px;
+}
+nav li {
+	padding-bottom: 5px;
+    font-weight: bold;
+}
+
+nav a { text-decoration: none; }
+nav a:link { color: #FFFFFF; }
+nav a:visited{ color: #FFFFFF40; }
+nav a:hover { color: #000000; }
+
+/*Main Content styles*/
+main { 
+	background-color: #ADD8E680;
+    margin-left: 200px;
+    padding: 1px 20px 20px 20px;   
+	min-height: 300px;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+/*Footer Styles*/
+footer { 
+	background-color: #93E9B3;
+    margin-left: 200px;
+    padding: 20px;
+    text-align: center;
+	font-size: small;
+	font-style: italic;
+}
+/*Classes for images*/
+.roomimg {
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px 5px #333333;
+	margin-bottom: 10px;
+}
+
+.mainimg {
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px 5px #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.eventimg {
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px 5px #333333;
+	margin-bottom: 10px;
+}
+/*Styling for links in main elements*/
+.textlink {
+	color: #FFFFFF;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+table {
+		margin: auto; /*Autosizes margins, centers table*/
+		width: 90%; /*90 percent of container width*/
+		border-spacing: 0; /*No spacing in table*/
+}
+
+th,td {
+	padding: 10px; /*Adds padding to these specific types of cells*/
+}
+
+tr:nth-of-type(odd) {
+	background-color: #73C2FB; /*Background color for rows with odd numbers*/
+
+}
+
+@media (min-width: 600px) {
+	
+  body {
+	display: flex;
+	flex-flow: column wrap;
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  header, footer {
+	display: flex;
+	flex-flow: column wrap;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  main {
+    display: flex;
+	flex-flow: column wrap;
+  }
+
+
+  nav ul {
+    display: flex;
+	flex-flow: column wrap;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: flex;
+	flex-flow: column wrap;
+	margin: 5px 0;
+    text-align: center;
+  }
+}

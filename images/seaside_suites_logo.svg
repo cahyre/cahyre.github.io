@@ -1,0 +1,30 @@
+<!-- Save as seaside-suites-horizontal.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">Seaside Suites logo</title>
+
+  <!-- Background (transparent) -->
+
+  <!-- Left emblem: waves + sailboat -->
+  <g transform="translate(18,10)">
+    <!-- circular badge background -->
+    <circle cx="54" cy="46" r="46" fill="#F3F8FA" stroke="none"></circle>
+    <!-- waves -->
+    <path d="M8 66 C22 52, 46 66, 60 54 C74 42, 98 62, 114 54" transform="translate(0,-10)" fill="none" stroke="#0ea5a4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"></path>
+    <!-- boat hull -->
+    <path d="M20 68c12 8 48 8 64 0l-8-10c-12 6-40 6-56 0z" fill="#06283D"></path>
+    <!-- mast -->
+    <rect x="60" y="18" width="2" height="34" fill="#06283D" rx="0.4"></rect>
+    <!-- sail -->
+    <path d="M61 18 L90 44 L61 44 Z" fill="#0ea5a4"></path>
+    <!-- small seagull -->
+    <path d="M120 18c8 -6 16 -6 24 0" fill="none" stroke="#06283D" stroke-width="2" stroke-linecap="round"></path>
+  </g>
+
+  <!-- Text block -->
+  <g transform="translate(140,36)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial">
+    <!-- "seaside" -->
+    <text x="0" y="22" font-size="34" font-weight="700" fill="#06283D" style="letter-spacing:0.5px">seaside</text>
+    <!-- "suites" -->
+    <text x="0" y="52" font-size="16" font-weight="600" fill="#0ea5a4" style="letter-spacing:1px">suites</text>
+  </g>
+</svg>
